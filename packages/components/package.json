@@ -1,0 +1,24 @@
+{
+  "name": "components",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Henrique Melanda <henrique.melanda@xpi.com.br>",
+  "homepage": "",
+  "license": "ISC",
+  "source": "lib/index.js",
+  "main": "dist/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "dev": "microbundle watch --jsx React.createElement lib/*.js"
+  },
+  "devDependencies": {
+    "microbundle": "^0.13.3",
+    "react": "^17.0.2"
+  }
+}
